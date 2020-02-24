@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(224, 224, 255, 0.966);
+    max-width: 80vw;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+form{
+    height: 15vh;
+    margin-left: 33vw;
+}
+form input{  
+    display: flex;
+    margin: 5px;
+    padding: 10px 8px; 
+
+    border-radius: 6px;
+    border: 1.5px #4747d1 solid;
+
+    width: 30%;
+}
+.btn{
+    background-color:#4747d1;
+    color:white;
+    cursor: pointer;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000cc;
+    padding: 20px 20vw;
+}
